@@ -1,5 +1,5 @@
 # GitHub Actions + SSH + git pull CI/CD 部署方案
-# test 0630
+# test 06302
 ## 1. 目标
 
 你要实现的是这样一条链路：
