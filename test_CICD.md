@@ -1,5 +1,5 @@
 # GitHub Actions + SSH + git pull CI/CD 部署方案
-
+# test 0630
 ## 1. 目标
 
 你要实现的是这样一条链路：
@@ -496,4 +496,3 @@ git@github.com:你的GitHub用户名/你的仓库名.git
 
 1. 按你的真实 GitHub 仓库名，把文档中的仓库地址和工作流变量全部替换成最终版本
 2. 根据你的项目类型（前端 / Node 后端 / Python / Java），把 `deploy.sh` 改成完全匹配你项目的生产部署脚本
-
