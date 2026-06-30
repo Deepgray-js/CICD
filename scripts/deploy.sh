@@ -12,6 +12,7 @@ echo "[deploy] repo url: ${REPO_URL}"
 
 cd "${APP_DIR}"
 
+git config core.filemode false
 git remote set-url origin "${REPO_URL}"
 git checkout "${APP_BRANCH}"
 git pull origin "${APP_BRANCH}"
